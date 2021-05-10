@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invaxbot.NotificationService.NotificationLambda", "Invaxbot.NotificationService.NotificationLambda.csproj", "{7A9611AC-9286-494F-BF96-20DA80A88030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invaxbot.NotificationService.NotificationConsole", "..\Invaxbot.NotificationService.NotificationConsole\Invaxbot.NotificationService.NotificationConsole.csproj", "{27777BB3-50D6-46F4-A5D8-A34A35DEB853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A9611AC-9286-494F-BF96-20DA80A88030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9611AC-9286-494F-BF96-20DA80A88030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9611AC-9286-494F-BF96-20DA80A88030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9611AC-9286-494F-BF96-20DA80A88030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27777BB3-50D6-46F4-A5D8-A34A35DEB853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27777BB3-50D6-46F4-A5D8-A34A35DEB853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27777BB3-50D6-46F4-A5D8-A34A35DEB853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27777BB3-50D6-46F4-A5D8-A34A35DEB853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {448B7796-525B-48BE-ABF7-85CE6B23E97B}
+	EndGlobalSection
+EndGlobal
